@@ -1,17 +1,20 @@
 :root{
-    --header-height: 60px;
+    --header-height: 80px;
 }
 
 header{
     background-color: var(--color-2);
     height: var(--header-height);
     width: 100%;
+    position: relative;
 }
 
 .logo{
-    --logo-margin: 4px;
+    --logo-margin: 8px;
+    
     aspect-ratio: 1/1;
-    height: calc( var(--header-height) - var(--logo-margin)*2 );
-    background-color: var(--color-sample);
+    position: absolute;
     margin: var(--logo-margin);
+    background-color: var(--color-sample);
+    height: calc( var(--header-height) - var(--logo-margin)*2 );
 }
