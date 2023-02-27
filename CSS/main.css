@@ -1,0 +1,11 @@
+:root{
+    --color-1: #FFF;
+    --color-2: #000;
+    --color-3: yellow;
+    --color-sample: #343434;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
