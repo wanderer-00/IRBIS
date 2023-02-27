@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 100"
+     width="100">
+    <style>
+        svg{
+            fill: blue;
+        }
+        text{
+            fill: red;
+            font: 20px bold sans;
+        }
+    </style>
+    <text x="30" y="54">1 x 1</text>
+</svg>
