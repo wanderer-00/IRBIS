@@ -1,0 +1,107 @@
+:root{
+    --color-1: #FFF; 
+    --color-2: #E5E5E5; 
+    --color-3: #FCA331; 
+    --color-4: #14213d; 
+    --color-5: #000; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    color: var(--color-5);
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    background-color: var(--color-1);
+}
+
+header > .logo {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    margin: auto;
+    
+    background-color: var(--color-4);
+}
+
+header > .button {
+    border: 1px solid red;
+    margin: auto;
+    padding: 6px 10px;
+}
+
+header > .send {
+    border: 1px solid green;
+    padding: 6px 10px;
+    margin: auto;
+}
+
+/* preview */
+main > .preview {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+main > .preview > .back_box {
+    color: var(--color-1);
+    width: 100%;
+    height: 300px;
+    background-color: var(--color-4);
+}
+
+main > .preview > .back_box > div {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 360px;
+/*    border: 1px solid yellow;*/
+}
+
+main > .preview > .back_box > div > div:first-child {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+main > .preview > .front_box {
+    text-align: center;
+    padding-top: 40px;
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    border-radius: 10px;
+    background-color: var(--color-3);
+}
+
+main > .preview > .front_box > input {
+    margin: 10px;
+    border-radius: 6px;
+}
+
+main > .preview > .front_box > input[type=text] {
+    padding: 12px 10px;
+}
+
+main > .preview > .front_box > input[type=button] {
+    padding: 6px 10px;
+    color: var(--color-1);
+    background-color: var(--color-4);
+}
+
+main > .preview > .front_box > div {
+    font-size: 10px;
+}
