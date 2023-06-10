@@ -4,5 +4,5 @@ source:
 [jQuery v3.6.3](https://jquery.com/)
 
 ## Фотогалерея
-[FancyBox](https://fancyapps.com/fancybox/getting-started/)
-[LIGHTBOX](https://lokeshdhakar.com/projects/lightbox2/#getting-started)
+ - [FancyBox](https://fancyapps.com/fancybox/getting-started/)
+ - [LIGHTBOX](https://lokeshdhakar.com/projects/lightbox2/#getting-started)
