@@ -1,60 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/">
-	<title>Главная</title>
-</head>
-<body>
-	<div class="wrapper">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Главная</title>
+    
+    <style>
+        .SERVICES > div > .CARD {
+            aspect-ratio: 1/1.2;
+            border-radius: 18px;
+            margin: 20px;
+            box-shadow: 0px 10px 20px 0px rgba(128, 128, 128, 0.25)
+        }
         
-		<header>
-            <div class="logo"></div>
-            <div class="buttons">
-                <div class="button">каталог</div>
-                <div class="button">новости</div>
-                <div class="button">контакты</div>
+        .SERVICES > div > .CARD > .ICON {
+            width: 100%;
+            height: 80%;
+            background-image: url(IMG/MAIN/SERVICES/BUSINESS_CARDS.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            background-position: center center;
+        }
+        
+        .SERVICES > div > .CARD > p {
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .WRAPPER {
+            margin: 0 auto;
+            width: 70%;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+        <header>
+            <div class="WRAPPER">
+                <div class="logo"></div>
+                <div class="buttons">
+                    <div class="button">услуги</div>
+                    <div class="button">изделия</div>
+                    <div class="button">новости</div>
+                    <div class="button">контакты</div>
+                </div>
             </div>
         </header>
         
-		<main>
-            
-            <div class="poster">
+        <div class="WRAPPER">
+        <main>
+            <div class="slider">
+
+            </div>
+
+            <div class="SERVICES">
+                <H2>Услуги</H2>
+                
+                <div style="display: grid;grid-template-columns: repeat(4, 1fr)">
+                   
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/BUSINESS_CARDS.jpg)"></div>
+                        <p>Визитная карточка</p>
+                    </div>
+
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/PACKAGE.jpg)"></div>
+                        <p>Товарная упаковка</p>
+                    </div>
+
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/PAKET.jpg)"></div>
+                        <p>Брендовый пакет</p>
+                    </div>
+
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/BOTTLE.jpg)"></div>
+                        <p>Бутыльная этикетка</p>
+                    </div>
+
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/INVITATION_LETTER.jpg)"></div>
+                        <p>Приглосительное письмо</p>
+                    </div>
+
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/DECORATION.jpg)"></div>
+                        <p>Декоративное изделие</p>
+                    </div>
+
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/SIGNBOARD.png)"></div>
+                        <p>Вывеска компании</p>
+                    </div>
+
+                    <div class="CARD">
+                        <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/PICTURE.jpg)"></div>
+                        <p>Картина</p>
+                    </div>
+
+                </div>
                 
             </div>
-            
-            <div class="slider">
-            
+
+            <div class="CLIENTS">
+                <H2>Наши клиенты</H2>
+                <img src="IMG/CLIENTS.bmp" alt="" width="100%">
             </div>
-            
-            <div class="services">
-            
-            </div>
-            
-            <div class="social">
-            
-            </div>
-            
+
             <div class="call">
-            
+
             </div>
         </main>
-		
+
         <footer>
-            <div class="call">
-                <a href="tel:+79201320586">+7 (920) 132 05 86</a>
+            <div class="info" style="color: white">
+                <div style="text-align: right; margin-left: auto; border: 1px solid red; display: grid; grid-template-columns: 3fr 30px; width: 400px;">
+                    <div><a href="https://yandex.ru/maps/-/CLUNnwq">г. Куровское, ул. Советская, д. 105, с. 15</a></div>
+                    <span class="material-icons">location_on</span>
+                    <div><a href="tel:+79201320586">+7 (920) 132 05 86</a></div>
+                    <span class="material-icons">phone_in_talk</span>
+                    <div><a href="mailto:scp742@gmail.com?subject=Здравствуйте">SCP742@gmail.com</a></div>
+                    <span class="material-icons">mail</span>
+                    <div>Ежедневно с 10:00 до 18:00</div>
+                    <span class="material-icons">schedule</span>
+                </div>
             </div>
         </footer>
-	</div>
-    
+    </div>
+
     <!-- Библиотеки -->
     <!-- jQuery -->
     <script src="JS/LIBRARIES/jquery-3.6.3.min.js"></script>
     <!-- Slick Slider -->
     <script src="JS/LIBRARIES/slick.min.js"></script>
-</body>
-</html>
+</body></html>

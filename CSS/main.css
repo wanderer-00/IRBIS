@@ -3,6 +3,9 @@
     --color-2: #000;
     --color-3: orange;
     --color-sample: #343434;
+    --Y: #FEED00;
+    --P: #E4097F;
+    --B: #01A0E2;
 }
 
 
@@ -30,6 +33,4 @@ main {
 	flex: 1 1 auto;
 }
 
-img{
-    border: 1px solid red
-}
+.material-icons.orange600 { color: #FB8C00; }
