@@ -9,63 +9,56 @@
     <link rel="stylesheet" href="CSS/">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Главная</title>
-    
+
     <style>
-        .SERVICES > div > .CARD {
+        .SERVICES>div>.CARD {
             aspect-ratio: 1/1.2;
             border-radius: 18px;
             margin: 20px;
             box-shadow: 0px 10px 20px 0px rgba(128, 128, 128, 0.25)
         }
-        
-        .SERVICES > div > .CARD > .ICON {
+
+        .SERVICES>div>.CARD>.ICON {
             width: 100%;
             height: 80%;
-            background-image: url(IMG/MAIN/SERVICES/BUSINESS_CARDS.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             border-radius: 10px;
             background-position: center center;
         }
-        
-        .SERVICES > div > .CARD > p {
+
+        .SERVICES>div>.CARD>p {
             text-align: center;
             font-size: 18px;
         }
-        
-        .WRAPPER {
-            margin: 0 auto;
-            width: 70%;
-        }
+
+        @medea (orientation: portrait) {}
     </style>
-    
+
 </head>
 
 <body>
 
-        <header>
-            <div class="WRAPPER">
-                <div class="logo"></div>
-                <div class="buttons">
-                    <div class="button">услуги</div>
-                    <div class="button">изделия</div>
-                    <div class="button">новости</div>
-                    <div class="button">контакты</div>
-                </div>
-            </div>
-        </header>
-        
+    <header>
         <div class="WRAPPER">
-        <main>
-            <div class="slider">
-
+            <div class="logo"></div>
+            <div class="buttons">
+                <div class="button">услуги</div>
+                <div class="button">изделия</div>
+                <div class="button">новости</div>
+                <div class="button">контакты</div>
             </div>
+        </div>
+    </header>
+
+    <div class="WRAPPER">
+        <main>
 
             <div class="SERVICES">
                 <H2>Услуги</H2>
-                
+
                 <div style="display: grid;grid-template-columns: repeat(4, 1fr)">
-                   
+
                     <div class="CARD">
                         <div class="ICON" style="background-image: url(IMG/MAIN/SERVICES/BUSINESS_CARDS.jpg)"></div>
                         <p>Визитная карточка</p>
@@ -107,34 +100,35 @@
                     </div>
 
                 </div>
-                
+
             </div>
 
             <div class="CLIENTS">
                 <H2>Наши клиенты</H2>
-                <img src="IMG/CLIENTS.bmp" alt="" width="100%">
+                <div></div>
+                <!--                <img src="IMG/CLIENTS.bmp" alt="" width="100%">-->
             </div>
 
             <div class="call">
 
             </div>
         </main>
-
-        <footer>
-            <div class="info" style="color: white">
-                <div style="text-align: right; margin-left: auto; border: 1px solid red; display: grid; grid-template-columns: 3fr 30px; width: 400px;">
-                    <div><a href="https://yandex.ru/maps/-/CLUNnwq">г. Куровское, ул. Советская, д. 105, с. 15</a></div>
-                    <span class="material-icons">location_on</span>
-                    <div><a href="tel:+79201320586">+7 (920) 132 05 86</a></div>
-                    <span class="material-icons">phone_in_talk</span>
-                    <div><a href="mailto:scp742@gmail.com?subject=Здравствуйте">SCP742@gmail.com</a></div>
-                    <span class="material-icons">mail</span>
-                    <div>Ежедневно с 10:00 до 18:00</div>
-                    <span class="material-icons">schedule</span>
-                </div>
-            </div>
-        </footer>
     </div>
+
+    <footer>
+        <div class="info" style="color: white">
+            <div style="text-align: right; margin-left: auto; border: 1px solid red; display: grid; grid-template-columns: 3fr 30px; width: 400px;">
+                <div><a href="https://yandex.ru/maps/-/CLUNnwq">г. Куровское, ул. Советская, д. 105, с. 15</a></div>
+                <span class="material-icons">location_on</span>
+                <div><a href="tel:+79201320586">+7 (920) 132 05 86</a></div>
+                <span class="material-icons">phone_in_talk</span>
+                <div><a href="mailto:scp742@gmail.com?subject=Здравствуйте">SCP742@gmail.com</a></div>
+                <span class="material-icons">mail</span>
+                <div>Ежедневно с 10:00 до 18:00</div>
+                <span class="material-icons">schedule</span>
+            </div>
+        </div>
+    </footer>
 
     <!-- Библиотеки -->
     <!-- jQuery -->

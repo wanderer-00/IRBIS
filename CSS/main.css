@@ -8,7 +8,9 @@
     --B: #01A0E2;
 }
 
-
+* {
+    box-sizing: border-box
+}
 
 body{
     padding: 0;
@@ -23,10 +25,17 @@ body {
 	margin: 0;
 }
 
+/*
 .wrapper {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
+}
+*/
+
+.WRAPPER {
+    margin: 0 auto;
+    width: 70%;
 }
 
 main {
@@ -34,3 +43,10 @@ main {
 }
 
 .material-icons.orange600 { color: #FB8C00; }
+
+@media ( orientation: portrait ) {
+    .WRAPPER {
+        width: 100%;
+        padding: 10px;
+    }
+}

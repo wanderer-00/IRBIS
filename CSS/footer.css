@@ -3,3 +3,8 @@ footer {
     width: 100wv;
     padding: 10px;
 }
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
